@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Team {
 
-    private int id;
+    private Integer id;
     private String name;
     private List<Developer> developers;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 

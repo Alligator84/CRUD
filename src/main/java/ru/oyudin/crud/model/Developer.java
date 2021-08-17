@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Developer {
 
-    private int id;
+    private Integer id;
     private String firstName;
     private String lastName;
     List<Skill> skills;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 

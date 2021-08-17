@@ -2,14 +2,14 @@ package ru.oyudin.crud.model;
 
 public class Skill {
 
-    private int id;
+    private Integer id;
     private String name;
 
     public void setId(int id) {
         this.id = id;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
