@@ -6,7 +6,7 @@ public class Team {
 
     private int id;
     private String name;
-    private List<Developer> posts;
+    private List<Developer> developers;
 
     public int getId() {
         return id;
@@ -25,11 +25,11 @@ public class Team {
     }
 
     public List<Developer> getPosts() {
-        return posts;
+        return developers;
     }
 
-    public void setPosts(List<Developer> posts) {
-        this.posts = posts;
+    public void setPosts(List<Developer> developers) {
+        this.developers = developers;
     }
 
 }
